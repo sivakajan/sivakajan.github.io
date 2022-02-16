@@ -11,4 +11,9 @@
 	display: flex;
 	justify-content: space-between;
 	background: url('https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+	
+}
+
+.logo h2{
+	font-size: 35px;
 }
