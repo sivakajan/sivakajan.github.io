@@ -13,6 +13,7 @@
 	height: 8vh;
 	background-color: #C0C0C0;
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	padding: 0 10px;
 }
 .logo, .list-head{
 	align-items: center;
@@ -35,4 +36,23 @@ ul{
 li{
 	float: left;
 	margin-left: 25px;
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+}
+
+li ::after{
+	content: '';
+	width: 0px;
+	height: 5px;
+	position: absolute;
+	bottom: -5px;
+	left: 50%;
+	transform: translateX(-50%);
+	background:rgb(173, 33, 33);
+	transition: width 0.3s;
+}
+
+li:hover::after{
+	width: 50%;
 }
