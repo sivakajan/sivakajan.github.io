@@ -10,10 +10,29 @@
 .header{
 	display: flex;
 	justify-content: space-between;
-	background: url('https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
-	
+	height: 8vh;
+	background-color: #C0C0C0;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.logo, .list-head{
+	align-items: center;
+	display: flex;
+	justify-content: center;
 }
 
 .logo h2{
 	font-size: 35px;
+	color: #FFFF;
+	font-family: 'Sawarabi Gothic';
+	
+}
+ul{
+	font-family: 'Sawarabi Gothic';
+	list-style: none;
+	color: #FFFF;
+}
+
+li{
+	float: left;
+	margin-left: 25px;
 }
